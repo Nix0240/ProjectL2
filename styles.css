@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.back{
+    background-color:#dfe8ff ;
+    background-image:url(./asset/pattern-background-desktop.svg);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+
+}
+
+.container{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items:center;
+    
+    
+    
+
+}
+
+/* .item{
+    border: 1px;
+    height: 100px;
+    width: 100px;
+} */
+
+.top{
+    width:500px;
+    height: 250px;
+    }
+
+.top img{
+        border-radius: 15px 15px 0 0;
+        width:500px;
+        height: 250px;
+        margin-top: 20px;
+    } 
+
+.bottom{
+    background-color: white;
+    height: 450px;
+    width:  500px;
+    border-radius: 0 0 15px 15px;
+}
+
+.order{
+padding: 25px;
+text-align: center;
+font-size: 16px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600;
+
+
+}
+
+.para{
+
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    opacity: 50%;
+
+}
+
+.annual{
+
+    padding: 20px;
+    margin: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: auto 2fr auto;
+    
+}
+
+.annual img{
+
+margin: 0px;    
+}
+
+.one{
+   margin-left: 20px; 
+}
+.oneone{
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.onetwo{
+    opacity: 50%;
+}
+
+.three{
+margin-top: 10px;
+margin-right: 20px;
+text-align: center;
+}
+.payment{
+ margin:25px;
+ padding: 10px;
+ background-color:blueviolet;
+ text-align: center;
+ border-radius: 10px;
+ margin-left: 60px;
+ margin-right: 60px;
+ 
+
+}
+
+.cancel{
+
+    text-align: center;
+    font-weight: 600;
+}
+
+.btn:link,.btn:visited{
+    text-decoration: none;
+}
+
+@media(max-width:400px){
+
+    .back{
+        
+        background-color:#dfe8ff ;
+        background-image:url(./asset/pattern-background-mobile.svg);
+        height: 100vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+
+    .container{
+        display: grid;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        align-items:center;
+    }
+
+}
